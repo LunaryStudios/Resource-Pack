@@ -1,0 +1,64 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "block/anvil",
+		"body": "block/anvil"
+	},
+	"elements": [
+		{
+			"name": "Anvil base",
+			"from": [2, 0, 2],
+			"to": [14, 4, 14],
+			"faces": {
+				"north": {"uv": [5, 8, 11, 10], "texture": "#body"},
+				"east": {"uv": [5, 6, 11, 8], "texture": "#body"},
+				"south": {"uv": [5, 8, 11, 10], "texture": "#body"},
+				"west": {"uv": [5, 6, 11, 8], "texture": "#body"},
+				"up": {"uv": [11, 6, 5, 0], "texture": "#body"},
+				"down": {"uv": [16, 10, 10, 16], "texture": "#body", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Lower narrow portion",
+			"from": [4, 4, 3],
+			"to": [12, 5, 13],
+			"faces": {
+				"north": {"uv": [11, 7.5, 15, 8], "texture": "#body"},
+				"east": {"uv": [5, 10, 10, 10.5], "texture": "#body"},
+				"south": {"uv": [11, 7.5, 15, 8], "texture": "#body"},
+				"west": {"uv": [5, 10, 10, 10.5], "texture": "#body"},
+				"up": {"uv": [15, 5, 11, 0], "texture": "#body"}
+			}
+		},
+		{
+			"name": "Wider section beneath top portion",
+			"from": [6, 5, 4],
+			"to": [10, 10, 12],
+			"faces": {
+				"north": {"uv": [11, 8, 13.48438, 10], "rotation": 90, "texture": "#body"},
+				"east": {"uv": [11, 5, 14.98438, 7.5], "texture": "#body"},
+				"south": {"uv": [11, 8, 13.48437, 10], "rotation": 90, "texture": "#body"},
+				"west": {"uv": [11, 5, 14.98438, 7.5], "texture": "#body"}
+			}
+		},
+		{
+			"name": "Anvil top",
+			"from": [3, 10, 0],
+			"to": [13, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 5, 11], "texture": "#body"},
+				"east": {"uv": [0, 11, 8, 14], "texture": "#body"},
+				"south": {"uv": [0, 8, 5, 11], "texture": "#body"},
+				"west": {"uv": [0, 11, 8, 14], "texture": "#body"},
+				"up": {"uv": [10, 16, 0, 0], "texture": "#top"},
+				"down": {"uv": [5, 0, 0, 8], "texture": "#body"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

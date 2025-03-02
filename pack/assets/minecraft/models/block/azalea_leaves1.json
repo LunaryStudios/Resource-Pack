@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/3d_leaves1",
+	"textures": {
+		"0": "block/rotrblocks/azalea_leaves",
+		"particle": "block/rotrblocks/azalea_leaves"
+	}
+}
