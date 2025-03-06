@@ -1,7 +1,0 @@
-{
-	"parent": "minecraft:block/3d_leaves2",
-	"textures": {
-		"0": "block/rotrblocks/pale_oak_leaves",
-		"particle": "block/rotrblocks/pale_oak_leaves"
-	}
-}

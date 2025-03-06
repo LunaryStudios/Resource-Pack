@@ -1,8 +1,0 @@
-{
-	"parent": "minecraft:block/3d_leaves3",
-	"textures": {
-		"0": "block/rotrblocks/cherry_leaves",
-		"1": "block/rotrblocks/cherry_leaves1",
-		"particle": "block/rotrblocks/cherry_leaves"
-	}
-}

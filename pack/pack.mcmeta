@@ -1,7 +1,10 @@
 {
-	"pack": {
-		"pack_format": 16,
-		"supported_formats": {"min_inclusive": 4, "max_inclusive": 999},
-		"description": "§f§lOffical §9§lLuminaryParks §f§lRP\n§8Based off rotrblocks"
-	}
+  "pack": {
+    "pack_format": 46,
+    "description": "§f§lOffical §9§lLuminaryParks §f§lRP\n§8Based off Faithfulx64",
+    "supported_formats": {
+      "min_inclusive": 46,
+      "max_inclusive": 47
+    }
+  }
 }

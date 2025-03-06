@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/leaves_rotr",
-  "textures": {
-    "all": "minecraft:block/oak_leaves"
-  }
-}
